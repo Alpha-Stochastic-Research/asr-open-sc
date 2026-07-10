@@ -84,7 +84,7 @@ Documentation = "https://github.com/Alpha-Stochastic-Research/asr-open-sc#readme
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["asr_tail_risk*", "asr*"]
+include = ["asr*"]
 namespaces = true
 
 [tool.pytest.ini_options]
