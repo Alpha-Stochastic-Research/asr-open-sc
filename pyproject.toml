@@ -1,0 +1,93 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asr-open-sc"
+version = "0.1.0"
+description = "Meta-package for the Alpha Stochastic Research open-science Python ecosystem."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+authors = [
+    { name = "Alpha Kabinet TOURE", email = "research@asr-lab.online" }
+]
+
+maintainers = [
+    { name = "Alpha Stochastic Research", email = "research@asr-lab.online" }
+]
+
+keywords = [
+    "alpha-stochastic-research",
+    "asr",
+    "quantitative-finance",
+    "financial-mathematics",
+    "stochastic-processes",
+    "risk-management",
+    "option-pricing",
+    "monte-carlo-simulation",
+    "scientific-computing",
+    "open-science",
+    "reproducible-research"
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent"
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "build>=1.2",
+    "twine>=5.0"
+]
+
+# These extras will become active once the corresponding ASR packages
+# are published on PyPI.
+#
+# Example future usage:
+# pip install "asr-open-sc[bachelier]"
+#
+# bachelier = [
+#     "asr-theory-of-speculation>=1.0.0"
+# ]
+#
+# risk = [
+#     "asr-var-cvar-tail-risk>=1.0.0"
+# ]
+#
+# all = [
+#     "asr-theory-of-speculation>=1.0.0",
+#     "asr-var-cvar-tail-risk>=1.0.0"
+# ]
+
+[project.urls]
+Homepage = "https://asr-lab.online"
+Repository = "https://github.com/Alpha-Stochastic-Research/asr-open-sc"
+Issues = "https://github.com/Alpha-Stochastic-Research/asr-open-sc/issues"
+Organization = "https://github.com/Alpha-Stochastic-Research"
+Documentation = "https://github.com/Alpha-Stochastic-Research/asr-open-sc#readme"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["asr*"]
+namespaces = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"
