@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this package or the ASR open-science Python ecosystem registry in research, teaching, or open-source work, please cite it using the metadata below."
+
+title: "asr-open-sc: Meta-package for the Alpha Stochastic Research Open-Science Python Ecosystem"
+
+abstract: "asr-open-sc is the lightweight meta-package and registry for the Alpha Stochastic Research open-science Python ecosystem. It establishes the ASR namespace strategy and provides metadata for reproducible research packages in quantitative finance, stochastic modelling, risk management, scientific computing, and open science."
+
+type: software
+
+authors:
+  - family-names: "TOURE"
+    given-names: "Alpha Kabinet"
+    orcid: "https://orcid.org/0009-0006-0745-0380"
+    affiliation: "Alpha Stochastic Research"
+
+version: "0.1.0"
+
+date-released: "2026-07-10"
+
+license: "MIT"
+
+repository-code: "https://github.com/Alpha-Stochastic-Research/asr-open-sc"
+
+url: "https://github.com/Alpha-Stochastic-Research/asr-open-sc"
+
+keywords:
+  - Alpha Stochastic Research
+  - ASR
+  - Quantitative Finance
+  - Financial Mathematics
+  - Stochastic Processes
+  - Risk Management
+  - Scientific Computing
+  - Open Science
+  - Reproducible Research
+  - Python Package
+  - Namespace Package
+
+preferred-citation:
+  type: software
+  title: "asr-open-sc: Meta-package for the Alpha Stochastic Research Open-Science Python Ecosystem"
+  authors:
+    - family-names: "TOURE"
+      given-names: "Alpha Kabinet"
+      orcid: "https://orcid.org/0009-0006-0745-0380"
+      affiliation: "Alpha Stochastic Research"
+  year: 2026
+  version: "0.1.0"
+  repository-code: "https://github.com/Alpha-Stochastic-Research/asr-open-sc"
+  url: "https://github.com/Alpha-Stochastic-Research/asr-open-sc"
