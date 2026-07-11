@@ -77,7 +77,7 @@ _PACKAGES: tuple[ASRPackage, ...] = (
             "Reproducible research package comparing Value at Risk, "
             "Conditional Value at Risk, and Expected Shortfall."
         ),
-        status="planned",
+        status="published",
         repository=(
             "https://github.com/Alpha-Stochastic-Research/"
             "asr-var-cvar-tail-risk"
