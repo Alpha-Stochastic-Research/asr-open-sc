@@ -16,7 +16,7 @@ def test_import_asr_open_sc() -> None:
     """The ASR open-science package should be importable."""
     module = importlib.import_module("asr.open_sc")
 
-    assert module.__version__ == "0.1.0"
+    assert module.__version__ == "0.2.0"
 
 
 def test_available_packages_returns_tuple() -> None:
