@@ -53,8 +53,21 @@ dependencies = []
 dev = [
     "pytest>=8.0",
     "build>=1.2",
-    "twine>=5.0"
+    "twine>=5.0",
 ]
+
+risk = [
+    "asr-var-cvar-tail-risk>=1.0.0,<2.0.0",
+]
+
+all = [
+    "asr-var-cvar-tail-risk>=1.0.0,<2.0.0",
+]
+
+# Enable this extra after asr-theory-of-speculation is published on PyPI.
+# bachelier = [
+#     "asr-theory-of-speculation>=1.0.0,<2.0.0",
+# ]
 
 # These extras will become active once the corresponding ASR packages
 # are published on PyPI.
