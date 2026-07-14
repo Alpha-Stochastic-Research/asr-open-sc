@@ -123,7 +123,7 @@ pip install asr-open-sc
 Install it through the `risk` optional dependency:
 
 ```bash
-pip install "asr-open-sc[risk]"
+pip install asr-open-sc"
 ```
 
 This installs:
@@ -147,7 +147,7 @@ from asr.risk.tail import TailRiskConfig
 ### Install all currently published ASR packages
 
 ```bash
-pip install "asr-open-sc[all]"
+pip install "asr-open-sc"
 ```
 
 At present, the `all` extra includes the ASR packages that have been published and activated in the meta-package dependency configuration.
