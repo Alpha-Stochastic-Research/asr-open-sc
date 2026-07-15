@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "asr-open-sc"
-version = "0.3.1"
+version = "0.3.2"
 description = "Meta-package for the Alpha Stochastic Research open-science Python ecosystem."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -66,9 +66,9 @@ all = [
 ]
 
 # Enable this extra after asr-theory-of-speculation is published on PyPI.
-# bachelier = [
-#     "asr-theory-of-speculation>=1.0.0,<2.0.0",
-# ]
+bachelier = [
+     "asr-theory-of-speculation>=1.0.0,<2.0.0",
+]
 
 # These extras will become active once the corresponding ASR packages
 # are published on PyPI.
