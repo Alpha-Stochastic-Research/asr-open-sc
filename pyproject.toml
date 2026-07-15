@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "asr-open-sc"
-version = "0.3.0"
+version = "0.3.1"
 description = "Meta-package for the Alpha Stochastic Research open-science Python ecosystem."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -56,6 +56,14 @@ dev = [
     "twine>=5.0",
 ]
 
+
+risk = [
+    "asr-var-cvar-tail-risk>=1.0.0,<2.0.0",
+]
+
+all = [
+    "asr-var-cvar-tail-risk>=1.0.0,<2.0.0",
+]
 
 # Enable this extra after asr-theory-of-speculation is published on PyPI.
 # bachelier = [
