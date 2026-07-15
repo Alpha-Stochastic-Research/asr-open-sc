@@ -13,7 +13,7 @@ authors:
     orcid: "https://orcid.org/0009-0006-0745-0380"
     affiliation: "Alpha Stochastic Research"
 
-version: "0.3.1"
+version: "0.3.2"
 
 date-released: "2026-07-15"
 
@@ -45,6 +45,6 @@ preferred-citation:
       orcid: "https://orcid.org/0009-0006-0745-0380"
       affiliation: "Alpha Stochastic Research"
   year: 2026
-  version: "0.3.1"
+  version: "0.3.2"
   repository-code: "https://github.com/Alpha-Stochastic-Research/asr-open-sc"
   url: "https://github.com/Alpha-Stochastic-Research/asr-open-sc"
